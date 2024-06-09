@@ -1,5 +1,0 @@
-Order类中
-定义了字符串类型（一个key对应一个字符串value)的方法
-set [key] [value] 存储 key-value 类型数据
-get [key]   获取 key 对应的 value
-del [key] 删除 key 对应的 value
