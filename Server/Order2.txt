@@ -1,0 +1,10 @@
+Order2类中
+双向链表类型（一个key对应一个双向链表，即可左右遍历，可以当栈，也可以当队列使用的数据结构）的方法
+
+lpush [key] [value] 可直接放一个数据在左端
+rpush [key] [value] 可直接放一个数据在右端
+range [key] [start] [end] 将key 对应 start 到 end 位置的数据全部返回  //没有实现
+len  [key] 获取 key 存储数据的个数
+lpop [key] 获取key最左端的数据并删除
+rpop [key] 获取key最右端的数据并删除
+ldel [key] 删除key 所有的数据
